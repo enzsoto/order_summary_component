@@ -1,0 +1,84 @@
+/* Alinear al centro el contenedor de mis objetos internos */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    border-radius: 15px 15px;
+    padding-bottom: 30px;
+}
+
+.imagen-hero{
+    display: block;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.cuerpo-titulo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cuerpo-titulo > p{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+
+
+.plan-precio {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    background-color: rgba(236, 236, 236, 0.3);
+    border-radius: 10px;
+}
+
+.plan {
+    display: flex;
+    text-align: center;
+}
+
+span{
+    flex-grow: 1;
+}
+
+.change {
+    flex-grow: 3;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.btns > a {
+    display: block;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btn-procesar {
+    padding: 10px;
+    background-color: rgb(45, 58, 228);
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-cancelar {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    color: gray;
+    border-radius: 10px;
+}
